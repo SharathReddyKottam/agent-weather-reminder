@@ -117,6 +117,8 @@ Don’t upload your real .env or credentials.json to GitHub.
 If Google shows “App not verified”, that’s normal in Testing mode.
 Just click Advanced → Continue for personal use.
 
+“Timezone is currently set to America/New_York. You can change this in calendar_service.py.”
+
 📰 Read the Full Story
 
 I’ve documented the full build process, challenges, and alternate LLM integrations in my Medium article:
