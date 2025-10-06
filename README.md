@@ -49,14 +49,21 @@ User Input ─► OpenAI (Intent Parsing)
 ⚙️ Setup Instructions
 
 1. Clone the repo
+
 git clone https://github.com/SharathReddyKottam/agent-weather-reminder.git
 cd agent-weather-reminder
+
 2. Create virtual environment
+
 python3 -m venv venv
 source venv/bin/activate
+
 3. Install dependencies
+
 pip install -r requirements.txt
+
 4. Environment variables
+
 Copy .env.example → .env and add your keys:
 OPENAI_API_KEY=your_openai_api_key_here
 SIMULATE_RAIN=false
@@ -64,25 +71,21 @@ SIMULATE_RAIN=false
 5. Google Calendar API setup
 
 Go to Google Cloud Console → APIs & Services → Library and enable Google Calendar API.
-
 Create OAuth 2.0 Web Client ID credentials.
-
 Download the JSON and save it as credentials.json in your project folder.
-
 Add your Gmail under OAuth Consent Screen → Test Users.
-
 When you first run, a browser window will open for authentication.
-
 (The repo includes credentials.json.example for reference — don’t share your real one!)
+
 🚀 Usage
 
 Run the agent:
 
-python agent.py
+-python agent.py
 
 Example input:
 
-check tomorrow's weather in London and remind me if I need an umbrella
+-check tomorrow's weather in London and remind me if I need an umbrella
 
 Example output:
 
