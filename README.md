@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://github.com/SharathReddyKottam/agent-weather-reminder/assets/banner.png" width="80%" alt="Agentic Weather Reminder Banner">
-</p>
-
 # 🌦️ Agentic Weather Reminder  
 > An intelligent AI agent that checks your forecast and reminds you when to grab your umbrella ☂️  
 
